@@ -11,7 +11,11 @@ Discord like website...
     django-admin startproject <project_name>
     cd <project_name>
     python manage.py startapp <app_name>
-
+    pip install pymongo==3.12.3 ( any error )
+    pip install pytz
+    python manage.py migrate
+    python manage.py createsuperuser
+    
 # settings.py:
 
     DATABASES = {
@@ -26,8 +30,3 @@ Discord like website...
             }
         }
     }
-
-    pip install pymongo==3.12.3 ( any error )
-    pip install pytz
-    python manage.py migrate
-    python manage.py createsuperuser
