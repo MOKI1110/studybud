@@ -15,8 +15,8 @@ Discord like website...
     pip install pytz
     python manage.py migrate
     python manage.py createsuperuser
-    python manage.py runserver
-    
+    python manage.py runserve
+
 # settings.py:
 
     DATABASES = {
